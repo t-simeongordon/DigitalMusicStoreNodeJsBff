@@ -1,0 +1,19 @@
+{
+  "name": "digitalmusicstorenodejsbff",
+  "version": "1.0.0",
+  "description": "DigitalMusicStoreNodeJsBff microservice using the BFF Architecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-simeongordon/DigitalMusicStoreNodeJsBff.git"
+  },
+  "author": "terrel simeon-gordon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t-simeongordon/DigitalMusicStoreNodeJsBff/issues"
+  },
+  "homepage": "https://github.com/t-simeongordon/DigitalMusicStoreNodeJsBff#readme"
+}
