@@ -1,14 +1,12 @@
 const express = require('express');
 const app = express()
 const bodyParser = require('body-parser')
-
+const config = require('./config/init')
+const appRoute = require('./api/routes')
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
+app.use(config.cors)
 
-app.use('/app', (req,res)=>{
-  res.status(200).json(
-    {greeting:'hello world'}
-  )
-});
+app.use('/app', appRoute);
 
 module.exports = app
