@@ -10,6 +10,7 @@
     "build-server": "babel ./src/server/index.js --out-file ./src/build/index-compiled.js && cpy ./src/server/index.js ./src/build",
     "build": "npm-run-all clean build-server",
     "dev:babel": "nodemon --exec babel-node ./src/build/index.js",
+    "dev:babel:no-build": "nodemon --exec babel-node ./src/server/index.js",
     "prod:babel": "node ./src/build/index.js"
   },
   "repository": {
